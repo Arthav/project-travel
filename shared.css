@@ -3,14 +3,14 @@ body {
     margin: 0;
 }
 
-#page-logo {
+header {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    width: 100%;
     padding: 10px;
-    font-family: "Oleo script", sans-serif;
-    font-size: 50px;
-    text-decoration: none;
-    color: rgb(201, 198, 0);
-    text-transform: uppercase;
-    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    font-size: large;
 }
 
 header ul {
@@ -20,16 +20,6 @@ header ul {
     padding: 0px;
     justify-content: center;
     display: flex;
-}
-
-
-header {
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-    position: absolute;
-    width: 100%;
-    padding: 10px;
 }
 
 header li {
@@ -46,12 +36,12 @@ header a {
     text-decoration: none;
     padding: 12px;
     font-size: 20px;
+    border-radius: 10px;
 }
 
-header a:hover {
+header nav a:hover {
     color: rgb(77, 77, 77);
     background-color: yellow;
-    border-radius: 10px;
 }
 
 footer {
@@ -73,4 +63,14 @@ footer img {
 footer ul {
     display: flex;
     justify-content: center;
+}
+
+#page-logo a{
+    padding: 10px;
+    font-family: "Oleo script", sans-serif;
+    font-size: 50px;
+    text-decoration: none;
+    color: rgb(201, 198, 0);
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
